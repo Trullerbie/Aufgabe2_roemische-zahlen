@@ -1,6 +1,6 @@
 function convertToRoman(num) {
   var romanNum = {
-    M:1000,
+    M: 1000,
     CM: 900,
     D: 500,
     CD: 400,
@@ -18,13 +18,18 @@ function convertToRoman(num) {
 
   //vergleicht, ob Eingabe >= 1 ist, anschließend ob die Eingabe einer Zahl aus romanNum entspricht. Durchrechnen der Zahl mit anschließender Ausgabe
   for (var key in romanNum) {
-    if (num >= 1) {
+
+    if (num > 3000) {
+      return "Values above 3000 are not defined";
+    } 
+    else if (num >= 1) {
       while (num >= romanNum[key]) {
         roman += key;
         num -= romanNum[key];
         return roman;
       }
-    } else {
+    } 
+    else {
       return "ungültige Zahl";
     }
   }
