@@ -57,4 +57,15 @@ describe("roman_numbers", () => {
   it("should return M for 1000", () => {
     console.log(convertToRoman(1000));
   });
+
+
+  //Aufgabe g
+  it("Exception for values over 3000", () => {
+    console.log(convertToRoman(3001));
+  })
+
+  it("Zahlen kleiner als 1 ungültig", () => {
+    console.log(convertToRoman(0));
+  })
+  
 });
