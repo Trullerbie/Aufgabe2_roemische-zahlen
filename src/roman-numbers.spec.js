@@ -36,4 +36,25 @@ describe("roman_numbers", () => {
   it("should return IX for 9", () => {
     console.log(convertToRoman(9));
   });
+
+  //Aufgabe f
+  it("should return L for 50", () => {
+    console.log(convertToRoman(50));
+  });
+
+  it("should return XL for 40", () => {
+    console.log(convertToRoman(40));
+  });
+
+  it("should return C for 100", () => {
+    console.log(convertToRoman(100));
+  });
+
+  it("should return D for 500", () => {
+    console.log(convertToRoman(500));
+  });
+
+  it("should return M for 1000", () => {
+    console.log(convertToRoman(1000));
+  });
 });
