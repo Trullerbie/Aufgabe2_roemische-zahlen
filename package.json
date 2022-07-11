@@ -1,0 +1,23 @@
+{
+  "name": "aufgabe2_roemische-zahlen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trullerbie/Aufgabe2_roemische-zahlen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trullerbie/Aufgabe2_roemische-zahlen/issues"
+  },
+  "homepage": "https://github.com/Trullerbie/Aufgabe2_roemische-zahlen#readme",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
