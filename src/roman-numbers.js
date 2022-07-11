@@ -1,6 +1,6 @@
 
-function convertToRoman(){
-    if (1 == "I"){
+function convertToRoman(num){
+    if (num == 1){
         return "I";
     }
 }
