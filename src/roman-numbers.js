@@ -1,5 +1,7 @@
 function convertToRoman(num) {
   var romanNum = {
+    X: 10,
+    V: 5,
     III: 3,
     II: 2,
     I: 1,

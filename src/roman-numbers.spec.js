@@ -18,4 +18,13 @@ describe("roman_numbers", () => {
   it("should return III for 3", () => {
     console.log(convertToRoman(3));
   });
+
+  //Aufgabe d
+  it("should return V for 5", () => {
+    console.log(convertToRoman(5));
+  });
+
+  it("should return X for 10", () => {
+    console.log(convertToRoman(10));
+  });
 });
